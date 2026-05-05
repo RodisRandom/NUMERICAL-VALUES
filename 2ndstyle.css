@@ -1,0 +1,74 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    text-align:center;
+    background-color:blueviolet;
+}
+
+
+#myLabel{
+    font-size:10em;
+    color:darkblue;
+    font-weight:bolder;
+
+}
+
+.buttons{
+    font-size:1.5em;
+    border-radius:25%;
+    border:2px solid white;
+    background-color:violet;
+    color:darkblue;
+}
+
+.buttons:hover{
+    background-color:blue;
+}
+
+
+#myInput2{
+    background-color:violet;
+    color:blue;
+}
+
+#myLabel2{
+    color:violet;
+    font-weight:bolder;
+    font-size:1.2em;
+}
+
+#button4{
+    color:violet;
+    background-color:blue;
+    border-radius:30%;
+    border:2px solid purple;
+    font-size:1.3em;
+}
+
+#button4:hover{
+    background-color:darkorchid;
+}
+
+
+#myh1{
+    font-size:3em;
+    color:blue;
+    font-weight:bolder;
+}
+
+#container{
+    position:fixed;
+    background-color:grey;
+    width:1340px;
+    height:100px;
+    top:580px;
+}
+
+#p1{
+    font-size:1.3em;
+    font-weight:bolder;
+    color:purple;
+    
+}
