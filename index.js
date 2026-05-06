@@ -44,21 +44,28 @@ button5.onclick = function(){
     switch(true){
 
     case value>=10000:
-        p1.textContent = (`congrats, you beated me... (this is the last messaage), and because of that, here's my password: sjiodajisjdjiaod`)    
+        p1.textContent = (`congrats, you beated me... (this is the last messaage), and because of that, here's my password: sjiodajisjdjiaod`);
+        break;    
+
     case value>=5000:
-        p1.textContent = (`bros addicted, HOW IN THE JESUS`)    
+        p1.textContent = (`bros addicted, HOW IN THE JESUS`);
+        break;
+
     case value>=2000:
-        p1.textContent = (`wait... HOW????`)    
+        p1.textContent = (`wait... HOW????`);
+        break;
+
     case value>=1000:
-        p1.textContent = (`are you gonna stop?`)    
+        p1.textContent = (`are you gonna stop?`);
+        break;  
 
     case value>=500:
         p1.textContent = (`you're way too dedicated`);
         break;    
+
     case value>=200:
         p1.textContent = (`you're twice as motivated`);
         break;        
-
 
     case value>=100:
         p1.textContent = (`You're dedicated`);
